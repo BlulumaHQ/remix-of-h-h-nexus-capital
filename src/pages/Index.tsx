@@ -1,20 +1,12 @@
 import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import InvestmentThesisSection from "@/components/InvestmentThesisSection";
-import PortfolioSection from "@/components/PortfolioSection";
-import GlobalNetworkSection from "@/components/GlobalNetworkSection";
-import ContactSection from "@/components/ContactSection";
+import FunnelPage from "@/components/FunnelPage";
 import Footer from "@/components/Footer";
 
 const Index = () => (
   <>
     <Header />
     <main>
-      <HeroSection />
-      <InvestmentThesisSection />
-      <PortfolioSection />
-      <GlobalNetworkSection />
-      <ContactSection />
+      <FunnelPage />
     </main>
     <Footer />
   </>
