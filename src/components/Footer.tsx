@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex items-center gap-6">
             <p className="text-primary-foreground/30 text-xs font-body">
               © {new Date().getFullYear()} HH Nexus Capital Ltd.
-            </p>
+            {" "}<span className="block mt-1 opacity-80" data-concept-note>Design concept for portfolio purposes only. Not the official website of HH Nexus Capital Ltd.</span></p>
             <Link to="/privacy" className="text-primary-foreground/30 hover:text-secondary text-xs font-body transition-colors">
               {t("Privacy", "隱私")}
             </Link>
